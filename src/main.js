@@ -12,6 +12,8 @@ import 'element-ui/lib/theme-chalk/index.css'
 import './styles/global.scss'
 // 导入axios
 import axios from '@/api'
+require('./mock/index.js')
+
 Vue.use(ElementUI)
 Vue.prototype.$http = axios
 
